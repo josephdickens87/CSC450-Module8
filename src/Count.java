@@ -1,6 +1,8 @@
 public class Count
 {
 
+    private int count = 0;
+
     private void countUp()
     {
         count++;
@@ -10,8 +12,6 @@ public class Count
     {
         count--;
     }
-
-    private int count = 0;
 
     public void doWork()
     {
