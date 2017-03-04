@@ -42,6 +42,15 @@ public class Count
         });
 
         t1.start();
+
+        try
+        {
+            t1.join();
+        } catch (InterruptedException e)
+        {
+            e.printStackTrace();
+        }
+
         t2.start();
     }
 
